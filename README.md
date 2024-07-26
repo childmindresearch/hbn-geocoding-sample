@@ -13,3 +13,5 @@ cd hbn-geocoding-sample
 poetry install
 poetry run jupyter notebook
 ```
+
+NOTE: Google geocoder does not have API specified for security. Let me know if you want to use this and I'll send directly.
