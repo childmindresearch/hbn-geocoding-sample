@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hbn-school-addr-sample"
+version = "0.1.0"
+description = ""
+authors = ["Gabriel Schubiner <gabriel.schubiner@childmind.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+notebook = "^7.2.1"
+pandas = "^2.2.2"
+googlemaps = "^4.10.0"
+pygris = "^0.1.6"
+geopandas = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
